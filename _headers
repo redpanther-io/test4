@@ -1,0 +1,4 @@
+/*
+  Access-Control-Allow-Origin: https://v3d-export-test.webflow.io
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+  Access-Control-Allow-Headers: *
