@@ -1,0 +1,24 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="44.71881700828885" scrolly="2.510203985778844" scale="0.8163265306122448">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="3A|j9F/UI.c`{oPu0*R$" x="210" y="330">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="Il/}/BwO*K~8#_2tsrdK">
+          <field name="TEXT">test-button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="t2rwacE/r$^FuT]sN:LS">
+          <value name="VALUE">
+            <shadow type="objectList" id="E=,B^hjg*jcwwn_(]%5j">
+              <field name="FIELDNAME">Cube</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="468.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
