@@ -1,7 +1,3 @@
-Access-Control-Allow-Origin: https://v3d-export-test.webflow.io
-Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
-Access-Control-Allow-Headers: *
-    
 'use strict';
 
 /* __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated */
