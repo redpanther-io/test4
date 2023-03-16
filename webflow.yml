@@ -1,0 +1,18 @@
+name: Webflow Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout
+      - name: Deploy to Webflow
+        uses: redpanther-io/test4
+        with:
+          WEBFLOW_API_TOKEN: df0c9654d8a33da70e060a766bda3a52112107b3e7f961496ccb1959c8aae936
+          WEBFLOW_SITE_ID: 640965272cd6f776f9b9174b
+          FOLDER_PATH: './'
