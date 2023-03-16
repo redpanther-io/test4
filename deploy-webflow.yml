@@ -1,0 +1,23 @@
+name: Deploy to Webflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@latest
+
+      - name: Deploy to Webflow
+        uses: redpanther-io/deploy-webflow@latest
+        with:
+          webflowApiToken: df0c9654d8a33da70e060a766bda3a52112107b3e7f961496ccb1959c8aae936
+          webflowSiteId: 640965272cd6f776f9b9174b
+          folderPath: "./"
+          buildCommand: ""
+          username: "redpanther-io"
+          repository: "test4"
